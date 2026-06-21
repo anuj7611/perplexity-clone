@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useChat } from "../hooks/useChat";
 import { Search, Plus, MessageSquare, Send } from "lucide-react";
