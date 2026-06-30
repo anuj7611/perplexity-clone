@@ -6,6 +6,6 @@ export const initializeSocketConnection = () => {
   });
 
   socket.on("connect", () => {
-    console.log("connected to socket.io server");
+    console.log("Connected to Socket.IO server");
   });
 };
